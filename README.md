@@ -5,6 +5,8 @@ Template for creating Electron apps using two popular frameworks with no extra d
 - [Create React App (with Typescript)](https://create-react-app.dev/)
 - [Electron Forge (WITHOUT Typescript)](https://www.electronforge.io/)
 
+For a version of this template without Typescript visit [this other repo.](https://github.com/hakantakiri/cra-ef)
+
 ## Preface
 
 Electron has become a popular tool for building desktop apps for Windows, macOS and some distributions of Linux. It allows the use of web technologies in the development process, hence, anyone can use their preferred web tools to have a better development experience, React falls in the category of a very preferred web technology.
