@@ -2,8 +2,8 @@
 
 Template for creating Electron apps using two popular frameworks with no extra dependencies:
 
-- [Create React App (with Typescript)](https://create-react-app.dev/)
-- [Electron Forge (WITHOUT Typescript)](https://www.electronforge.io/)
+-   [Create React App (with Typescript)](https://create-react-app.dev/)
+-   [Electron Forge (WITHOUT Typescript)](https://www.electronforge.io/)
 
 For a version of this template without Typescript visit [this other repo.](https://github.com/hakantakiri/cra-ef)
 
@@ -32,13 +32,13 @@ Now you are ready to create your app. Be careful if you move the location of the
 
 1. For this you'll need to use two separate tabs or windows in your terminal. The first one for React and the second one for Electron.
 
-- 1.1. For React:
+-   1.1. For React:
 
 ```
 npm start
 ```
 
-- 1.2. For Electron:
+-   1.2. For Electron:
 
 ```
 npm run electron
@@ -131,7 +131,7 @@ app.on("activate", () => {
 
 ```json
 "scripts": {
-    "start": "react-scripts start",
+    "start": "BROWSER=none react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
